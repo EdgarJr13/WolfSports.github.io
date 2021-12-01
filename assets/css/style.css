@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+    min-height: 100%;
+    font-family:'Tomorrow', sans-serif;
+}
+
+.align-form {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0;
+}
+
+form {
+    display: inline-block;
+    width: 200px;
+}
+
+form label {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 0px;
+    padding: 4px;
+    width: 100%;
+}
+
+form textarea {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+}
+
+header {
+    background-color: #cad9f7;
+}
+
+footer {
+    background-color: #cad9f7;
+    padding: 40px 0;
+}
+
+footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #9dbdff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;;
+}
+
+footer .social a:hover {
+    opacity: 0.9;
+}
+
+footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer ul li a:hover {
+    opacity: 1;
+}
+
+footer
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.row {
+    display: inline-block;
+    
+}
+
+.menu {
+    background-color: #9dbdff;
+    list-style: none;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+.active {
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+}
+
+.active:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 355px;
+}
+
+.fixed-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.galeria {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeria .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    margin-bottom: 15px;
+}
+
+.galeria .fotos img {
+    width: 20%
+}
+
+.welcome {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome .fotos {
+    width: 500%;
+    margin-bottom: 15px;
+}
+
+.welcome .fotos img {
+    width: 20%
+}
+
+.align-form {
+    margin: 0 auto;
+}
+
+.camisa {
+    width: 19.3%;
+    margin-left: 130px;
+}
+
+.produto-item, .produto-stars {
+    text-align: center;
+    display: inline-block;
+}
+
+.produto-fiorentina {
+    margin-left: 137px;
+    display: inline-block;
+}
+
+.produto-palmeiras{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+.produto-vasco{
+    display: inline-block;
+    margin-left: 165px;
+}
+
+.produto-flamengo {
+    margin-left: 133px;
+    display: inline-block;
+}
+
+.produto-barcelona{
+    display: inline-block;
+    margin-left: 144px;
+}
+
+.produto-liverpool{
+    display: inline-block;
+    margin-left: 148px;
+}
+
+.produto-psg {
+    margin-left: 165px;
+    display: inline-block;
+}
+
+.produto-united{
+    display: inline-block;
+    margin-left: 193px;
+}
+
+.produto-parma{
+    display: inline-block;
+    margin-left: 178px;
+}
+
+.produto-bayern {
+    margin-left: 143px;
+    display: inline-block;
+}

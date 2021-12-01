@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Tomorrow:wght@300;400&display=swap");
+    </style>
+    <title>Localização - Wolf Sports</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <img
+          class="logo"
+          src="assets/images/wolfsports_logo.png"
+          alt="Wolf Sports Logo"
+        />
+      </div>
+      <div class="menu">
+        <nav>
+          <ul class="options">
+            <li class="active" onclick="window.location.replace('index.html')">
+              <a>Home</a>
+            </li>
+            <li class="active" onclick="window.location.replace('produtos.html')">
+              <a>Produtos</a>
+            </li>
+            <li
+              class="active"
+              onclick="window.location.replace('localizacao.html')"
+            >
+              <a>Localização</a>
+            </li>
+            <li
+              class="active"
+              onclick="window.location.replace('contato.html')"
+            >
+              <a>Contato</a>
+            </li>
+            <li class="active" onclick="window.location.replace('novidades.html')">
+              <a>Novidades</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 style="text-align: center">
+        Entre em contato conosco para tirar dúvidas:
+      </h1>
+
+      <div class="align-form">
+        <form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Deyverson Brum" />
+
+          <label for="email">E-mail</label>
+          <input id="email" placeholder="exemplo@gmail.com" />
+
+          <label for="fone">Telefone</label>
+          <input type="tel" id="fone" placeholder="(xx)yxxxx-xxxx" />
+
+          <textarea
+            placeholder="Mande-nos sua dúvida"
+            rows="8"
+            cols="26"
+          ></textarea>
+          <input type="submit" style="margin-left: 6px; margin-top: 8px;" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social">
+        <a href="https://instagram.com/edgoal"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/edgoal13"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://github.com/EdgarJr13"><i class="fab fa-github"></i></a>
+      </div>
+      <ul class="footer-menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Produtos</a></li>
+        <li><a href="index.html">Localização</a></li>
+        <li><a href="index.html">Contato</a></li>
+        <li><a href="index.html">Novidades</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
